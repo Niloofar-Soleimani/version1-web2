@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css">
+</head>
+<body>
+    
+    <div class="conteiner">
+<!-- menu -->
+<div class="menu">
+<nav>
+    <div class="menu_item"><a href="" class="link_item">Home</a></div>
+    <div class="menu_item"><a href="" class="link_item">About</a></div>
+    <div class="menu_item"><a href="" class="link_item">Gallery</a></div>
+    <div class="menu_item"><a href="" class="link_item">Contact</a></div>
+</nav>
+
+</div>
+
+<!-- slider -->
+<div class="slider">
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="./image/0x0.png" alt=""></div>
+      <div class="swiper-slide"><img src="./image/0x0.png" alt=""></div>
+      <div class="swiper-slide"><img src="./image/0x0.png" alt=""></div>
+      <div class="swiper-slide"><img src="./image/0x0.png" alt=""></div>
+      <div class="swiper-slide"><img src="./image/0x0.png" alt=""></div>
+      <div class="swiper-slide"><img src="./image/0x0.png" alt=""></div>
+    
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+
+
+</div>
+
+
+<div class="product">
+
+<div class="pro">
+    <img src="./image/sec00_01_yzf-r1.png" alt="">
+    <h1>motor</h1>
+    <p>price:1111$</p>
+    <a href="">buy</a>
+</div>
+<div class="pro">
+    <img src="./image/sec00_01_yzf-r1.png" alt="">
+    <h1>motor</h1>
+    <p>price:1111$</p>
+        <a href="">buy</a>
+</div>
+<div class="pro">
+    <img src="./image/sec00_01_yzf-r1.png" alt="">
+    <h1>motor</h1>
+    <p>price:1111$</p>
+        <a href="">buy</a>
+</div>
+
+</div>
+
+    </div>
+
+
+    <script src="./swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+</body>
+</html>

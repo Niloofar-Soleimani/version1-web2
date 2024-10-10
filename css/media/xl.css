@@ -1,0 +1,116 @@
+.menu{
+    width: 100%;
+    height: 50px;
+    background: rgb(75, 75, 81);
+    nav{
+        width: inherit;
+        height: inherit;
+        
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        .menu_item{
+            width: fit-content;
+            height: inherit;
+            line-height: 50px;
+            .link_item{
+                display: block;
+                width: fit-content;
+                height: inherit;
+                text-decoration: none;
+                color: aliceblue;
+                font-size: 20px;
+                font-weight: bold;
+transform: 300ms;
+                &:hover{
+                    font-size: 25px;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+
+
+.slider{
+
+
+    width: 100%;
+    height: 400px;
+    background: olive;
+
+
+    
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+    object-fit: contain;
+    }
+}
+
+
+.product{
+    width: 100%;
+    height: 350px;
+    background: #0c0a0a;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    .pro{
+        width: 30%;
+        background: rgb(99, 101, 101);
+        height: inherit;
+        display: flex;
+        flex-flow: column;
+    align-items: center;
+        justify-content: center;
+        gap: 10px;
+        img{
+            width: 250px;
+            padding: 10px;
+            object-fit: cover;
+        }
+        h1{
+            text-transform: capitalize;
+            color: white;
+        }
+        p{
+            text-transform: capitalize;
+            font-weight: bold;
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            color: #fff;
+            display: block;
+            width: 50px;
+            height: 30px;
+            text-transform: capitalize;
+            background: green;
+            text-align: center;
+            border-radius: 10px;
+            line-height: 30px;
+            border: 1px solid white;
+        }
+    }
+}
